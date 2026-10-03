@@ -19,27 +19,27 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
+      label: Expected behavior (optional)
       description: What did you expect UNU to do?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: actual
     attributes:
-      label: Actual behavior
+      label: Actual behavior (optional)
       description: What did UNU do instead?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
+      label: Steps to reproduce (optional)
       placeholder: |
         1. Open UNU
         2. ...
         3. ...
     validations:
-      required: true
+      required: false
   - type: input
     id: version
     attributes:
