@@ -53,17 +53,31 @@ Automatic in-app updates are not implemented yet; check this page's
 [latest release](https://github.com/unugames/unu-releases/releases/latest)
 for new versions.
 
+## Feedback and roadmap
+
+This repository is the public home for unu's community feedback:
+
+- **Found a bug?** [Open a bug report](https://github.com/unugames/unu-releases/issues/new?template=bug_report.yml).
+- **Have an idea?** [Suggest a feature](https://github.com/unugames/unu-releases/issues/new?template=feature_request.yml).
+- **Curious what's coming?** See the [Unu Roadmap](https://github.com/orgs/unugames/projects).
+
+unu is built in spare time alongside a full-time job. The roadmap shows
+priority and direction (*Now*, *Next*, *Later*), not delivery dates. Items
+move from *Inbox* to *Considering* to *Planned*, *In Progress*, and
+*Shipped*; some land in *Not Now*, which means "not at the moment", not
+"never".
+
 ## Getting help
 
 - Installation and general help: [unugames.com](https://unugames.com)
-- Community feedback and support: the unu Discord (linked from
+- Community chat: the unu Discord (linked from
   [unugames.com](https://unugames.com))
-- Security issues: see [SECURITY.md](./SECURITY.md)
+- Security issues: see [SECURITY.md](./SECURITY.md) and please report them
+  privately, not as a public issue
 
 ## What is not here
 
-This repository does not accept issues, pull requests, or discussions about
-application behavior -- it is a publication target, not a development
-repository. It never contains source code, build configuration, or private
-CI history; those live in the private source repository referenced by each
-release's `release.json`.
+unu is closed source. This repository never contains application source
+code, build configuration, or private CI history, so it does not accept pull
+requests. Each release's `release.json` records the private source commit it
+was built from.

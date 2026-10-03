@@ -22,11 +22,12 @@ pull request on this repository.
 ## What this repository can and cannot fix directly
 
 This repository never contains application source code or CI configuration
--- it only holds published release assets and this documentation. A report
-about application behavior, a bug, or a feature request belongs with the
-unu project through the channels on [unugames.com](https://unugames.com),
-not here. A report about the integrity, authenticity, or publication of a
-specific release asset belongs here.
+-- it only holds published release assets and community documentation.
+Ordinary (non-security) bugs and feature requests are welcome as
+[public issues](https://github.com/unugames/unu-releases/issues/new/choose).
+Anything with a security impact, whether in the application itself or in
+the integrity, authenticity, or publication of a release asset, should be
+reported privately as described above.
 
 ## Verifying what you downloaded
 
