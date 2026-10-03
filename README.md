@@ -77,7 +77,6 @@ move from *Inbox* to *Considering* to *Planned*, *In Progress*, and
 
 ## What is not here
 
-unu is closed source. This repository never contains application source
-code, build configuration, or private CI history, so it does not accept pull
-requests. Each release's `release.json` records the private source commit it
-was built from.
+This repository does not accept pull requests. It never contains source
+code, build configuration, or private CI history; those live in the private
+source repository referenced by each release's `release.json`.
