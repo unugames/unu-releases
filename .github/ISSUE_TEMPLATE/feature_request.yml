@@ -2,12 +2,13 @@ name: Feature request
 description: Suggest an idea or improvement for unu.
 title: "[Feature]: "
 labels: ["feature", "needs consideration"]
+type: Feature
 body:
   - type: markdown
     attributes:
       value: |
         unu is built in spare time, so not every idea will make it in, but every one gets read.
-        Check the [Unu Roadmap](https://github.com/orgs/unugames/projects) first in case it's already there.
+        Check the [Unu Roadmap](https://github.com/orgs/unugames/projects/1) first in case it's already there.
   - type: textarea
     id: problem
     attributes:

@@ -59,7 +59,7 @@ This repository is the public home for unu's community feedback:
 
 - **Found a bug?** [Open a bug report](https://github.com/unugames/unu-releases/issues/new?template=bug_report.yml).
 - **Have an idea?** [Suggest a feature](https://github.com/unugames/unu-releases/issues/new?template=feature_request.yml).
-- **Curious what's coming?** See the [Unu Roadmap](https://github.com/orgs/unugames/projects).
+- **Curious what's coming?** See the [Unu Roadmap](https://github.com/orgs/unugames/projects/1).
 
 unu is built in spare time alongside a full-time job. The roadmap shows
 priority and direction (*Now*, *Next*, *Later*), not delivery dates. Items
