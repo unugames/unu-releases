@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest an idea or improvement for unu.
+description: Suggest an idea or improvement for UNU.
 title: "[Feature]: "
 labels: ["feature", "needs consideration"]
 type: Feature
@@ -7,33 +7,26 @@ body:
   - type: markdown
     attributes:
       value: |
-        unu is built in spare time, so not every idea will make it in, but every one gets read.
+        UNU is built in spare time, so not every idea will make it in, but every one gets read.
         Check the [Unu Roadmap](https://github.com/orgs/unugames/projects/1) first in case it's already there.
-  - type: textarea
-    id: problem
-    attributes:
-      label: Problem or use case
-      description: What are you trying to do, and what gets in the way?
-    validations:
-      required: true
   - type: textarea
     id: idea
     attributes:
-      label: Proposed idea
-      description: How do you imagine it working?
+      label: What would you like UNU to do?
+      description: A sentence or two is plenty.
     validations:
       required: true
   - type: textarea
     id: why
     attributes:
-      label: Why it would be useful
-      description: Who benefits, and how often would you use it?
+      label: Why would it help you? (optional)
+      description: What you're trying to do, or what gets in the way today.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: context
     attributes:
-      label: Alternatives or additional context (optional)
-      description: Workarounds you use today, how other launchers handle it, mockups, screenshots.
+      label: Anything else? (optional)
+      description: Workarounds, how other launchers do it, mockups, screenshots.
     validations:
       required: false

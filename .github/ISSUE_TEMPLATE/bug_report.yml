@@ -1,5 +1,5 @@
 name: Bug report
-description: Something in unu isn't working the way it should.
+description: Something in UNU isn't working the way it should.
 title: "[Bug]: "
 labels: ["bug"]
 type: Bug
@@ -20,14 +20,14 @@ body:
     id: expected
     attributes:
       label: Expected behavior
-      description: What did you expect unu to do?
+      description: What did you expect UNU to do?
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
       label: Actual behavior
-      description: What did unu do instead?
+      description: What did UNU do instead?
     validations:
       required: true
   - type: textarea
@@ -35,7 +35,7 @@ body:
     attributes:
       label: Steps to reproduce
       placeholder: |
-        1. Open unu
+        1. Open UNU
         2. ...
         3. ...
     validations:
@@ -43,7 +43,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: unu version
+      label: UNU version
       description: Shown in Settings, or in the installer filename.
       placeholder: "e.g. 0.5.0"
     validations:
