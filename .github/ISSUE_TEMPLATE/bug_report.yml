@@ -1,0 +1,65 @@
+name: Bug report
+description: Something in unu isn't working the way it should.
+title: "[Bug]: "
+labels: ["bug"]
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. A few details go a long way.
+        Found a security problem? Please don't file it here; see [SECURITY.md](https://github.com/unugames/unu-releases/blob/main/SECURITY.md).
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A short description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect unu to do?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What did unu do instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open unu
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: unu version
+      description: Shown in Settings, or in the installer filename.
+      placeholder: "e.g. 0.5.0"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS / environment
+      description: Windows version, plus anything relevant like controller model, display setup, or which stores you use.
+      placeholder: "e.g. Windows 11 24H2, Xbox Series controller, 4K TV"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots (optional)
+      description: Drag images in here, or paste log output. Remove anything private (API keys, account names) first.
+    validations:
+      required: false
